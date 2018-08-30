@@ -1,10 +1,8 @@
-# How to standup pacific.cluster.cnct.io (Cluster Specification Repository)
+# How to standup Cluster using Heptio CFT
 
-This is necessary instructions and code necessary to recreate `pacific` for the first time must be checked in there
+This is necessary instructions about How to standup Cluster using Heptio CFT
 
 ## **Instruction**
-
-> ### Setup In AWS
 
 ### **STEP 1 - Bring up Cluster with Heptio's Cloudformation template**
 
@@ -22,7 +20,7 @@ This is necessary instructions and code necessary to recreate `pacific` for the 
   - **DISK_SIZE_GB** The instance disk size in gigabytes. Default: 100
   - **SSH_LOCATION** The CIDR allowed to ssh in to this cluster. Default: 0.0.0.0/0
   - **K8S_NODE_CAPACITY** The number of worker nodes in this cluster. Default: 1
-  
+
   ```
   [~]$ export CLUSTER_ID=jason-heptio
   [~]$ export AWS_ACCESS_KEY_ID=
